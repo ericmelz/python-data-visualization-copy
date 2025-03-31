@@ -1,12 +1,12 @@
 from dash import Dash, html, dcc
 import plotly.express as px
 
-external_stylesheets = ["https://codepen.io/chriddyp/pen/BwLwgP.css"]
+external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
 app = Dash(__name__, external_stylesheets=external_stylesheets)
 
 app.layout = html.Div(
     [
-        html.H1("Simple HTML Only Site"),
+        html.H1("Simple HTML Only Site!"),
         html.H2("TalkPython Training"),
         html.Div(
             [
@@ -31,7 +31,7 @@ app.layout = html.Div(
         """)
     ],
     style={
-        "margin-left": "15px",
+        "marginLeft": "15px",
         "width": "55%",
         "backgroundColor": "lightgray"
     }
